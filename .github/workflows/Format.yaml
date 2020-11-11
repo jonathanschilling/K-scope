@@ -5,7 +5,6 @@ name: Format
 on:
   push:
     branches:
-      - master
       - translateComments
       - mavenize
 
