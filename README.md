@@ -42,14 +42,14 @@ The Maven project management tool is used to build the project.
 Building is easy:
 
 ```
-  $ mvn clean package assembly:single
+  $ mvn clean package
 ```
 
 After the compiling, you may obtain jar-executable including classes in the `target` folder.
 Run is simple as follow.
 
 ```
-  $ java -jar target/K-scope-0.2.7-jar-with-dependencies.jar
+  $ java -jar target/K-scope-0.2.7.jar
 ```
 
 At the time of startup, K-scope requires specific folders for properties.
